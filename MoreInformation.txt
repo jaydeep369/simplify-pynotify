@@ -1,6 +1,6 @@
 
 We can monitor linux directories using "pyinotify".
-This documentation will demonstrate how to use a Python script to monitor a directory, you can take reference from it and use as per your convinience.
+This documentation will demonstrate how to use a Python script to monitor a directory, you can take reference from it and use as per your convenience.
 Clone this repo at "/usr/local/src/" to follow the same steps, path may be vary as differnt clone location and path for python also different for different os.
 We need to Install Python 3 and pyinotify to use above script.
 Use below commands to install dependencies
