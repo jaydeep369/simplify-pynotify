@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/python3 /usr/local/src/dirwatch.py
+ExecStart=/usr/bin/python3 /usr/local/src/simplify-pynotify/dirwatch.py
 TimeoutStartSec=0
 
 [Install]
