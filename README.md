@@ -1,13 +1,6 @@
 # simplify-pynotify
-- We can monitor linux directories using "pyinotify".
-- This documentation will demonstrate how to use a Python script to monitor a directory, you can take reference from it and use as per your convinience.
-- We need to Install Python 3 and pyinotify need to be install to use above script.
-- Use below commands to install dependencies
-- For Debian:
-- apt-get install python3 python3-pip -y
-- pip3 install pyinotify
-- 
-- For Centos:
-- yum install epel-release -y
-- yum install python3 python3-pip -y
-- pip3 install pyinotify
+- Follow steps given in More Information document which I used to monitor particular directory, and manage to monitor it using service file.
+- For More info, You may wish to consult the following resources for additional information on this topic.
+    Pyinotify on Github
+    Pyinotify API documentation
+    Inotify manpage
