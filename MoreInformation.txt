@@ -1,7 +1,7 @@
 
 We can monitor linux directories using "pyinotify".
 This documentation will demonstrate how to use a Python script to monitor a directory, you can take reference from it and use as per your convinience.
-We need to Install Python 3 and pyinotify need to be install to use above script.
+We need to Install Python 3 and pyinotify to use above script.
 Use below commands to install dependencies
 For Debian:
 apt-get install python3 python3-pip -y
@@ -11,6 +11,10 @@ For Centos:
 yum install epel-release -y
 yum install python3 python3-pip -y
 pip3 install pyinotify
+
+- I am writing the changes in file "/usr/local/src/output.txt" and monitoring the directory "/usr/local/src/monitor/", any of file will be created and there, it will noted down in output.txt file.
+- service file dirwatch.service you can also manage as per your convinience, to use this service file you can copy it to "/etc/systemd/system/" and start stop dirwatch service.
+If you're changing path of dirwatch.py or if python3 full path is different, you can manage it accordingly. 
 
 More Information:
 You may wish to consult the following resources for additional information on this topic. 
