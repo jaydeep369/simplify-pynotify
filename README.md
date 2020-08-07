@@ -4,12 +4,10 @@
 - We need to Install Python 3 and pyinotify need to be install to use above script.
 - Use below commands to install dependencies
 - For Debian:
-  apt-get install python3 python3-pip -y
-  pip3 install pyinotify
- 
- - For Centos:
-  yum install epel-release -y
-  yum install python3 python3-pip -y
-  pip3 install pyinotify
-  
- 
+- apt-get install python3 python3-pip -y
+- pip3 install pyinotify
+- 
+- For Centos:
+- yum install epel-release -y
+- yum install python3 python3-pip -y
+- pip3 install pyinotify
